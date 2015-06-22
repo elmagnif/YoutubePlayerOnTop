@@ -1,0 +1,20 @@
+﻿<Window x:Name="myWindows" x:Class="YouTubePlayerOnTop.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:YouTubePlayerOnTop"
+        xmlns:tb="http://www.hardcodet.net/taskbar"
+        mc:Ignorable="d"
+        KeyUp="myWindows_KeyUp"
+        Title="Youtube Player" Height="350" Width="525" Icon="Assets/youtube.png">
+
+  
+    <Grid>
+        
+        
+        <WebBrowser x:Name="my_browser" Source="https://www.youtube.com/embed/5TOJ24pQg8k" HorizontalAlignment="Stretch"  VerticalAlignment="Stretch" />
+        
+
+    </Grid>
+</Window>
